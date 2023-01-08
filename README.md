@@ -21,8 +21,7 @@
 
 
 #### A second paragraph that lists the data structures you used in implementing your
-strategy along with a brief justification why each data structure is appropriate for
-the task in which you used it.
+ - strategy along with a brief justification why each data structure is appropriate for the task in which you used it.
 
 We use three data structure types: list, stack and queue.
 
@@ -53,13 +52,13 @@ We use some helper functions:
  - neighborPlanet(IVisiblePlanet myPlanet, List<IVisiblePlanet> otherList)
 
 	this helper method creates a list of neighboring planets of a given type
-* breathFirstSearch(IVisiblePlanet mostContended, List<IPlanet> planets)
+ - breathFirstSearch(IVisiblePlanet mostContended, List<IPlanet> planets)
 	Use of breadth search, searches the planet system and adds planets to a queue in order of closeness to the most contended planet. Radiate with a central point and get all planets accessible
 
-* findRoute(IVisiblePlanet myPlanet, Queue<IPlanet> mostContendMap) {
+ - findRoute(IVisiblePlanet myPlanet, Queue<IPlanet> mostContendMap) {
 	this could find the shortest edge to proceed towards the most contended planet.
 
-* getPlanet(int planetID, List<IPlanet> planets) {
+ - getPlanet(int planetID, List<IPlanet> planets) {
 	this could find the planet with a given planet ID.
 
 
